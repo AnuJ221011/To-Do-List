@@ -1,0 +1,92 @@
+body{
+    background-color: #31363F;
+}
+
+.container{
+    width: 500px;
+    margin: 0px auto;
+    height: 220px;
+    border: 1px solid steelblue;
+    padding: 0px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #222831;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin: 10px 30px 40px 30px;
+    font-size: 50px;
+}
+
+#taskInput{
+    width: 400px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #31363F ;
+    color: black !important;
+}
+
+/* Change the placeholder text color */
+#taskInput::placeholder {
+    color: black; /* Adjust this color as needed */
+    font-size: large;
+    font-weight: bold;
+}
+
+#addButton{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 0px;
+    cursor: pointer;
+    background-color: #222831;
+    color: white;
+}
+
+#addButton:hover{
+    background-color: #31363F;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+    width: 400px; 
+    margin: 25px;
+}
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26355D;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#taskList button {
+    background-color: #FF4136;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#taskList button:hover {
+    background-color: #FF6347;
+}
